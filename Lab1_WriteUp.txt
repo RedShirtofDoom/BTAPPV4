@@ -1,0 +1,19 @@
+Casey Conner 1000689079
+
+CSE 4340
+Lab 1 - Bluetooth to Bluetooth communication and text file update. This application exchanges the bluetooth Device Name and UUID of two device to mmmake a bond, and pair them together. after the pair is established, the two devices can send messages back and forth, and those messages are logged in a text file, which is updated. Instructions:
+1. Load the project into android studio
+2. comile & build the application
+3. run the application on 2 different android devices
+4. start the application
+5. press the "on/offf" button on both devices to turn on bluetooth on each device.
+6. press the "enable Discoverable" button to extend the discoverable time to 300 seconds
+7. on the first device(your choice), select the other device amongst the list and then press the "start Connection" button to begin the connection
+8. type any text into the text field and press send
+8.1 for the first time you press send on either devices, you will be required to allow for storage permissions: press "allow " when the pop-up appears, and press send on your first message again
+9. the sent & received text will be stored in a file called"myFile.txt" under the file directory 
+
+Bugs/Limitations:
+  *Limited to Android Devices
+  *The app will ask if you want to turn on bluetooth when it first starts, so pressing the on/off button may not be necessary
+  *no additional prompt will appear when a message is sent.
