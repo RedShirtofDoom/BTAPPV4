@@ -293,7 +293,7 @@ public class BluetoothConnectionService extends ActivityCompat{
                 if(file.exists()){
                     FileWriter fw = new FileWriter(file.getAbsoluteFile(), true);
                     BufferedWriter bw = new BufferedWriter(fw);
-                    bw.write(mText);
+                    bw.write(mText + timeStamp);
                     bw.newLine();
                     bw.flush();
                     bw.close();
@@ -302,7 +302,7 @@ public class BluetoothConnectionService extends ActivityCompat{
                     file.createNewFile();
                     FileWriter fw = new FileWriter(file.getAbsoluteFile());
                     BufferedWriter bw = new BufferedWriter(fw);
-                    bw.write(mText);
+                    bw.write(mText + timeStamp);
                     bw.close();
 
                 }
